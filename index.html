@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Louis Blueprint 2036</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page" id="blueprint">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-inner">
+        <div class="header-left">
+          <div class="profile-name" id="profile-name"></div>
+          <div class="profile-meta" id="profile-meta"></div>
+        </div>
+        <div class="header-center">
+          <h1 class="blueprint-title" id="blueprint-title"></h1>
+          <p class="blueprint-tagline" id="blueprint-tagline"></p>
+        </div>
+        <div class="header-right">
+          <div class="header-badge" id="header-badge"></div>
+        </div>
+      </div>
+      <div class="header-rule"></div>
+    </header>
+
+    <!-- THREE COLUMNS -->
+    <main class="columns">
+
+      <section class="column column-past">
+        <div class="col-label">Past</div>
+        <div class="col-subtitle">職涯軌跡</div>
+        <div class="timeline" id="past-timeline"></div>
+      </section>
+
+      <div class="col-divider"></div>
+
+      <section class="column column-present">
+        <div class="col-label col-label-green">Present</div>
+        <div class="col-subtitle">現在進行式</div>
+        <div id="present-content"></div>
+        <div class="section-label" style="margin-top:22px">Achievement</div>
+        <div class="kpi-grid" id="kpi-grid"></div>
+      </section>
+
+      <div class="col-divider"></div>
+
+      <section class="column column-future">
+        <div class="col-label col-label-gold">Future</div>
+        <div class="col-subtitle">目標方向</div>
+        <div id="future-content"></div>
+        <div class="section-label" style="margin-top:22px">Capability Map</div>
+        <div class="radar-wrap">
+          <svg id="radar-svg" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg"></svg>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- BOTTOM -->
+    <footer class="bottom">
+      <div class="bottom-rule"></div>
+      <div class="bottom-grid">
+        <div class="bottom-card">
+          <div class="card-title" id="decision-title"></div>
+          <div class="card-subtitle" id="decision-subtitle"></div>
+          <ul class="principle-list" id="decision-list"></ul>
+        </div>
+        <div class="bottom-card">
+          <div class="card-title" id="method-title"></div>
+          <div class="card-subtitle" id="method-subtitle"></div>
+          <ol class="method-list" id="method-list"></ol>
+        </div>
+        <div class="bottom-card">
+          <div class="card-title">10-Year Roadmap</div>
+          <div class="card-subtitle">十年路線圖</div>
+          <ul class="roadmap-list" id="roadmap-list"></ul>
+        </div>
+        <div class="bottom-card card-quote">
+          <blockquote class="quote-text" id="quote-text"></blockquote>
+          <cite class="quote-author" id="quote-author"></cite>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="data/profile.js"></script>
+  <script src="data/career.js"></script>
+  <script src="data/capability.js"></script>
+  <script src="data/principles.js"></script>
+  <script src="data/future.js"></script>
+  <script src="data/achievement.js"></script>
+  <script src="data/index.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
