@@ -7,7 +7,7 @@
 // 各模組由個別 <script> 先載入（見 index.html）
 // 本檔合併為單一全域物件
 
-const BLUEPRINT = {
+var BLUEPRINT = {
   profile:     profile,
   career:      career,
   capability:  capability,

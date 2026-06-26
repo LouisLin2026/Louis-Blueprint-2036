@@ -2,7 +2,7 @@
 // 2036 Vision + 10-Year Roadmap
 // ────────────────────────────────────────────────────────────
 
-const future = {
+var future = {
   label:    "Future",
   subtitle: "目標方向",
 

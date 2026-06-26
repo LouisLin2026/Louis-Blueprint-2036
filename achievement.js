@@ -2,7 +2,7 @@
 // KPI 數據 / 代表成就
 // ────────────────────────────────────────────────────────────
 
-const achievement = {
+var achievement = {
   title:    "Achievement",
   subtitle: "代表成就",
 

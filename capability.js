@@ -4,7 +4,7 @@
 // score 範圍：0–100
 // ────────────────────────────────────────────────────────────
 
-const capability = {
+var capability = {
   title:    "Capability Map",
   subtitle: "能力地圖",
 

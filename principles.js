@@ -2,7 +2,7 @@
 // Louis Principles / Method / Decision Principles
 // ────────────────────────────────────────────────────────────
 
-const principles = {
+var principles = {
   decisionPrinciples: {
     title:    "Decision Principles",
     subtitle: "決策原則",
